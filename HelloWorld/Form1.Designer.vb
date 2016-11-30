@@ -25,7 +25,7 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.cmdSayIt = New System.Windows.Forms.Button()
         Me.txtName = New System.Windows.Forms.TextBox()
-        Me.lblGreeting = New System.Windows.Forms.Label()
+        Me.lblHowdy = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -53,20 +53,20 @@ Partial Class Form1
         Me.txtName.Size = New System.Drawing.Size(153, 20)
         Me.txtName.TabIndex = 3
         '
-        'lblGreeting
+        'lblHowdy
         '
-        Me.lblGreeting.Location = New System.Drawing.Point(12, 125)
-        Me.lblGreeting.Name = "lblGreeting"
-        Me.lblGreeting.Size = New System.Drawing.Size(249, 13)
-        Me.lblGreeting.TabIndex = 4
-        Me.lblGreeting.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblHowdy.Location = New System.Drawing.Point(12, 125)
+        Me.lblHowdy.Name = "lblHowdy"
+        Me.lblHowdy.Size = New System.Drawing.Size(249, 13)
+        Me.lblHowdy.TabIndex = 4
+        Me.lblHowdy.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 262)
-        Me.Controls.Add(Me.lblGreeting)
+        Me.Controls.Add(Me.lblHowdy)
         Me.Controls.Add(Me.txtName)
         Me.Controls.Add(Me.cmdSayIt)
         Me.Controls.Add(Me.Label1)
@@ -79,6 +79,6 @@ Partial Class Form1
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents cmdSayIt As System.Windows.Forms.Button
     Friend WithEvents txtName As System.Windows.Forms.TextBox
-    Friend WithEvents lblGreeting As System.Windows.Forms.Label
+    Friend WithEvents lblHowdy As System.Windows.Forms.Label
 
 End Class

@@ -10,7 +10,7 @@ Public Class Form1
     End Sub
 
     Private Sub cmdSayIt_Click(sender As System.Object, e As System.EventArgs) Handles cmdSayIt.Click
-        lblGreeting.Text = String.Format("Hello {0}!", Trim(txtName.Text))
+        lblHowdy.Text = String.Format("Hello {0}!", Trim(txtName.Text))
     End Sub
 
     Private Sub txtName_TextChanged(sender As System.Object, e As System.EventArgs) Handles txtName.TextChanged
